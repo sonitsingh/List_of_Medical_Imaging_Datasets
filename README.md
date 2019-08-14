@@ -38,7 +38,9 @@ Please read the following paper for details:
 |No Findings        | 42404 | 11927 | 6078  |
 |**No. of Images**  |**78467**| **22432** | **11218** |
 
-
-
-
-
+### Task List
+- [x] NIH ChesX-ray14 Dataset
+- [ ] MIMIC-CXR Dataset
+- [ ] Chexpert Dataset
+- [ ] Indiana University Chest X-ray collection
+- [ ] PadChest Dataset
