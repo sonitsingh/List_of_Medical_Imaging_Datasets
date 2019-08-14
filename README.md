@@ -18,7 +18,7 @@ Please read the following paper for details:
 5. Split by image: The dataset has been split into train, valid and test consisting of 70%, 20%, and 10% of total dataset.
 6. Split by patient: The official split by patient is also available [here](https://nihcc.app.box.com/v/ChestXray-NIHCC)
 7. The official splits, either by images or by patients ensures no patient overlap in the train and test sets.
-8. Number of images per class is given below:
+8. Number of images per class is given below.
 
 |    Disease        | Train   Test    Valid |
 |-------------------|-------|------ |-------|
