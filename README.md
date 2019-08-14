@@ -21,6 +21,7 @@ Please read the following paper for details:
 8. Number of images per class is given below.
 
 |    Disease        | Train   Test    Valid |
+
 |-------------------|-------|------ |-------|
 |Atelectasis        | 7996  | 2420  | 1119  |
 |Cardiomegaly       | 1950  | 582   | 240   |
