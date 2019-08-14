@@ -20,9 +20,8 @@ Please read the following paper for details:
 7. The official splits, either by images or by patients ensures no patient overlap in the train and test sets.
 8. Number of images per class is given below.
 
-|    Disease        | Train   Test    Valid |
+|    Disease        | Train | Test  | Valid |
 |-------------------|-------|------ |-------|
-
 |Atelectasis        | 7996  | 2420  | 1119  |
 |Cardiomegaly       | 1950  | 582   | 240   |
 |Effusion           | 9261  | 2754  | 1292  |
