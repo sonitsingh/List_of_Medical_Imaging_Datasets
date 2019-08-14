@@ -19,8 +19,7 @@ Please read the following paper for details:
 6. Split by patient: The official split by patient is also available [here](https://nihcc.app.box.com/v/ChestXray-NIHCC)
 7. The official splits, either by images or by patients ensures no patient overlap in the train and test sets.
 8. Number of images per class is given below:
-
-|                   | Train   Test    Valid |
+|    Disease        | Train   Test    Valid |
 |-------------------|-------|------ |-------|
 |Atelectasis        | 7996  | 2420  | 1119  |
 |Cardiomegaly       | 1950  | 582   | 240   |
