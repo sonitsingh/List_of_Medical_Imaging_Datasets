@@ -44,3 +44,4 @@ Please read the following paper for details:
 - [ ] Chexpert Dataset
 - [ ] Indiana University Chest X-ray collection
 - [ ] PadChest Dataset
+- [ ] Need to finish portfolio 1
