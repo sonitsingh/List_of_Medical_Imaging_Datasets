@@ -38,6 +38,25 @@ Please read the following paper for details:
 |No Findings        | 42404 | 11927 | 6078  |
 |**No. of Images**  |**78467**| **22432** | **11218** |
 
+## MIMIC-CXR Dataset
+
+Please read the following paper for more details:
+
+[2] [MIMIC-CXR: A Large publicly available database of labeled Chest Radiographs] (https://arxiv.org/pdf/1901.07042.pdf)
+
+1. A large dataset of 371,920 chest X-rays associated with 227,943 imaging studies sourced from the Beth Israel Deaconess Medical Centre between 2011-2016.
+2. Each imaging study is most often associated with two images: a frontal view and a lateral view.
+3. Images are provided with 14 thoracic disease labels derived by applying NLP tool to corresponding radiology reports.
+4. The dataset is de-identified to satisfy the US HIPAA requirements.
+5. The pathology labels significantly overlap with those of the NIH ChestX-ray14 dataset.
+6. Each chest radiograph was sourced from hospitals' PACS in DICOM format. After de-identification, images were exported in the JPEG standard format having pixel data normalized to the unit interval, and the bit-depth scaled to 8-bit (0-255).
+7. Although there are different section in a radiology report such as *comparison*, *Indication*, *findings*, and *impression*, labels for the images are derived from either the *impression* section or the *finding* section if impression is not present. 
+8. Of the total 227,943 reports, 82.4% have an impression section, 12.5% have findings sections, and 5.1% do not have an impression or findings section.
+9. Labels are determined using the open source CheXpert labeler developed at the Stanford University.
+10. CheXpert is a rule based classifier having three stages: 1. extraction, 2. classification, and 3. aggregation. 
+11. The curated dataset is publicly available on PhysioNet and is free to all researchers after signing a data use agreement. 
+12. In future, authors plan to release the original DICOM files with free-text radiology reports.
+
 ### Task List
 - [x] NIH ChesX-ray14 Dataset
 - [ ] MIMIC-CXR Dataset
