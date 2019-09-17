@@ -42,7 +42,7 @@ Please read the following paper for details:
 
 Please read the following paper for more details:
 
-[2] [MIMIC-CXR: A Large publicly available database of labeled Chest Radiographs] (https://arxiv.org/pdf/1901.07042.pdf)
+[2] [MIMIC-CXR: A Large publicly available database of labeled Chest Radiographs](https://arxiv.org/pdf/1901.07042.pdf)
 
 1. A large dataset of 371,920 chest X-rays associated with 227,943 imaging studies sourced from the Beth Israel Deaconess Medical Centre between 2011-2016.
 2. Each imaging study is most often associated with two images: a frontal view and a lateral view.
