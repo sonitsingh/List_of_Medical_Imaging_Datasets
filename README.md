@@ -124,4 +124,6 @@ Please read the following paper for more details:
 - [ ] Chexpert Dataset
 - [ ] Indiana University Chest X-ray collection
 - [ ] PadChest Dataset
-- [ ] Need to finish portfolio 1
+- [ ] The Korean Institute of Tuberculosis dataset
+- [ ] The JSRT dataset
+- [ ] The Shenzhen dataset
