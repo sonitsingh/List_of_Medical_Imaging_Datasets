@@ -69,6 +69,38 @@ Please read the following paper for more details:
 4. Main sectiohttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5009925/pdf/ocv080.pdfns in report include: 1. Comparison, 2. Indication, 3. Findings, and 4. Impression. 
 5. Each radiology report is annotated by encoding the findings and impression section with MeSH (Medial Subject Headings) and Radiology Lexicon (RadLex) ontologies. 
 
+## CheXpert Dataset
+
+Please read the following paper for more details:
+
+[4] [CheXpert: A large chest radiograph dataset with uncertainty labels and expert comparison](https://arxiv.org/pdf/1901.07031.pdf)
+
+1. CheXpert, a large dataset contains 224,316 chest radiographs of 65,240 patients labeled for the presence of 14 common chest radiographic observations.
+2. The CheXpert task is to predict the probability of 14 different observations from multi-view chest radiographs. 
+3. The labeler can extract observations from free-text radiology reports in the form of *positive*, *negative*, and *uncertain* labels.
+4. The labels are: 
+
+|     Label             |
+|-----------------------|
+| No Finding            |
+| Enlarged Cardiomegaly |
+| Cardiomegaly          |
+| Lung Lesion           |
+| Lung Opacity          |
+| Edema                 |
+| Consolidation         |
+| Pneumonia             |
+| Atelectasis           |
+| Pneumothorax          |
+| Pleural Effusion      |
+| Pleural Other         |
+| Fracture              |
+| Supporting Devices    |
+
+5. The most common 14 pathologies (observations) are decided based on the prevalence in the reports and clinical relevance, conforming to the Fleischner Society's recommended glossary (Hansell et al., 2008). 
+6. The labeler namely, *CheXpert*, is an automated rule-based classifier to extract observations from th free text radiology reports to be used as structured labels for the images. 
+8. The labeler have three distinct stages: *mention extracton*, *mention classification*, and *mention aggregation*.
+
 
 
 ### Task List
