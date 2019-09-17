@@ -57,6 +57,20 @@ Please read the following paper for more details:
 11. The curated dataset is publicly available on PhysioNet and is free to all researchers after signing a data use agreement. 
 12. In future, authors plan to release the original DICOM files with free-text radiology reports.
 
+## Indiana University Chest X-ray Collection (IUCXR) Dataset
+
+Please read the following paper for more details:
+
+3. [Preparing a collection of radiology examinations for distribution and retrieval] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5009925/pdf/ocv080.pdf)
+
+1. This dataset consists of radiology images (Chest X-rays) and text reports for the development of clinical decision support algorithms.
+2. The dataset consists of 3955 radiology reports associated with 7470 chest X-rays.
+3. The Indiana University investigators pulled narrative chest x-ray reports for posterior-anterior (PA) chest X-ray examinations from 2 large hospitals affiliated to the Indiana Network. 
+4. Main sectiohttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC5009925/pdf/ocv080.pdfns in report include: 1. Comparison, 2. Indication, 3. Findings, and 4. Impression. 
+5. Each radiology report is annotated by encoding the findings and impression section with MeSH (Medial Subject Headings) and Radiology Lexicon (RadLex) ontologies. 
+
+
+
 ### Task List
 - [x] NIH ChesX-ray14 Dataset
 - [ ] MIMIC-CXR Dataset
