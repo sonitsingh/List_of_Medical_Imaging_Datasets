@@ -61,7 +61,7 @@ Please read the following paper for more details:
 
 Please read the following paper for more details:
 
-3. [Preparing a collection of radiology examinations for distribution and retrieval] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5009925/pdf/ocv080.pdf)
+[3]. [Preparing a collection of radiology examinations for distribution and retrieval] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5009925/pdf/ocv080.pdf)
 
 1. This dataset consists of radiology images (Chest X-rays) and text reports for the development of clinical decision support algorithms.
 2. The dataset consists of 3955 radiology reports associated with 7470 chest X-rays.
